@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import data from './recipe_data.json';
+
+const recipe_data = data;
+
 
 ReactDOM.render(
+  
   <React.StrictMode>
-    <App />
+    {recipe_data.map(index => console.log(index))}
+    <App recipes={recipe_data} />
   </React.StrictMode>,
   document.getElementById('root')
 );
