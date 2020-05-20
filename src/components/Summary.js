@@ -5,9 +5,9 @@ const Summary = ({ ingredients, steps, title }) => {
   console.log(typeof ingredients);
 
   return (
-    <div>
+    <div className='summary-box'>
       <h1>{title}</h1>
-      <p>{ingredients} ingredients | {steps} Steps</p>
+      <p>{ingredients} Ingredients | {steps} Steps</p>
     </div>
   )
 }

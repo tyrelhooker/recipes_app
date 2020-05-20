@@ -37,3 +37,10 @@
     transform: rotate(360deg);
   }
 }
+
+.summary-box {
+  border: 1pt solid blue;
+  background-color: lightblue;
+  text-align: center;
+
+}

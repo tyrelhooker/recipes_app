@@ -11,8 +11,8 @@ const Recipe = ({ name, ingredients, steps }) =>
       ingredients={ingredients.length} 
       steps={steps.length} 
     />
-     <h1>{name}</h1>
-    <IngredientList list={ingredients} />
+    <h2>{name}</h2>
+    <IngredientList title='Ingredients' list={ingredients} />
     <Instructions title='Cooking Instructions' steps={steps} />
     
   </section>
